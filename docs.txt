@@ -1,0 +1,38 @@
+-- Additional Libraries
+
+Bootstrap & FontAwesome
+https://www.bootstrapcdn.com/
+https://www.bootstrapcdn.com/fontawesome/
+
+ember install ember-cli-sass
+
+-- Starting the app
+ember serve
+
+-- Creating new routes
+ember g route products (basic routes)
+ember g route products/laptop (nested routes)
+ember g route products/index (index route for products)
+- dynamic routes are created the same as the other routes,
+but we need to add the path to the router with the dynamic parameter
+
+-- Creating new controllers
+ember g controller cart
+ember g controller item
+
+-- Creating new top-level Components
+ember g component general-container
+ember g component product
+
+-- Creating new nested Components
+ember g component product/image
+ember g component product/details
+
+-- Creating components classes
+ember g component-class product
+
+-- Creating helpers
+ember g helper currency
+
+-- Creating new services
+ember g service shopping-cart
