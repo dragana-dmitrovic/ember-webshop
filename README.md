@@ -1,5 +1,5 @@
 # Ember Webshop
-## Live demo: https://698a06a7a25e3109f9529f76--storied-frangipane-c703d0.netlify.app/
+
 
 Ovo je jednostavna Ember aplikacija za webshop.  
 Aplikacija omogućava pregled proizvoda, dodavanje u korpu i upravljanje korpom.
