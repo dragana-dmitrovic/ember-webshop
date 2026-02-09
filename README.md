@@ -1,4 +1,5 @@
 # Ember Webshop
+## Live demo: https://698a06a7a25e3109f9529f76--storied-frangipane-c703d0.netlify.app/
 
 Ovo je jednostavna Ember aplikacija za webshop.  
 Aplikacija omogućava pregled proizvoda, dodavanje u korpu i upravljanje korpom.
@@ -11,6 +12,12 @@ Aplikacija omogućava pregled proizvoda, dodavanje u korpu i upravljanje korpom.
 - Responsivan dizajn
 
 ## Instalacija (lokalno)
+
+## Tech stack
+Ember.js [front end framework]
+JavaScript
+Node.js [used for build and dependency management]
+Netfly [hoting and deployment]
 
 Potrebno je da imate instalirano:
 
@@ -41,4 +48,4 @@ npm exec ember build --environment=production
 Sadržaj build-a se nalazi u dist folderu i može se koristiti za deploy na online server ili GitHub Pages.
 
 Link do aplikacije
-Online verzija (bice dostupna nakon deploya na GitHub Pages)
+Online verzija https://698a06a7a25e3109f9529f76--storied-frangipane-c703d0.netlify.app/
