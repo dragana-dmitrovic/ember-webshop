@@ -1,51 +1,74 @@
-# Ember Webshop
+# 🛒 Ember Webshop
 
+A single-page e-commerce application built with Ember.js, featuring product browsing, product details, and cart management. Deployed and live on Netlify.
 
-Ovo je jednostavna Ember aplikacija za webshop.  
-Aplikacija omogućava pregled proizvoda, dodavanje u korpu i upravljanje korpom.
+🔗 **[Live Demo](https://dragana-ember-webshop.netlify.app)**
 
-## Pregled aplikacije
+---
 
-- Pregled proizvoda
-- Detalji proizvoda
-- Upravljanje korpom
-- Responsivan dizajn
+## ✨ Features
 
-## Instalacija (lokalno)
+- Browse products with a clean, responsive UI
+- View individual product details
+- Add and remove items from the cart
+- Cart state managed with Ember services
+- Responsive design
 
-## Tech stack
-Ember.js [front end framework]
-JavaScript
-Node.js [used for build and dependency management]
-Netfly [hoting and deployment]
+---
 
-Potrebno je da imate instalirano:
+## 🛠️ Tech Stack
 
+- **Ember.js** — front-end SPA framework
+- **JavaScript** — application logic
+- **SCSS** — styling
+- **Node.js / npm** — build tooling and dependency management
+- **Netlify** — hosting and continuous deployment
+
+---
+
+## 🚀 Running Locally
+
+**Prerequisites:**
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
-- [Git](https://git-scm.com/)
-- [Ember CLI](https://emberjs.com/)
+- [Ember CLI](https://cli.emberjs.com/)
 
-**Koraci:**
+**Steps:**
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/dragana-dmitrovic/ember-webshop.git
 cd ember-webshop
 npm install
-Pokretanje aplikacije lokalno
 npm run start
-Napomena: Link http://localhost:4200
- radi samo na vašem računaru dok je server pokrenut. Ne može se koristiti za deljenje sa drugim osobama dok ne bude deploy-ovano online.
+```
 
-**Testiranje**
+The app will be available at `http://localhost:4200`.
+
+---
+
+## 🏗️ Build for Production
+
+```bash
+npm exec ember build --environment=production
+```
+
+Output is placed in the `dist/` folder.
+
+---
+
+## 🧪 Testing & Linting
+
+```bash
+# Run tests
 npm run test
-npm run test:ember -- --server
-Linting
+
+# Lint
 npm run lint
 npm run lint:fix
-Build (produkcija)
-npm exec ember build --environment=production
-Sadržaj build-a se nalazi u dist folderu i može se koristiti za deploy na online server ili GitHub Pages.
+```
 
-Link do aplikacije
-Online verzija https://698a06a7a25e3109f9529f76--storied-frangipane-c703d0.netlify.app/
+---
+
+## 👩‍💻 Author
+
+Dragana Dmitrović
